@@ -186,7 +186,7 @@ This algorithm does not have an experiment associated with it as the used abstra
 
 - [stencil](./stencil): This directory, as usual, contains three versions of a simple implementation of a blur stencil (performing flat blur with a specified neighborhood radius); two versions that use the Noarr abstraction (one with Noarr bags and the other without), one that is written in pure C++.
 
-  - [draw_image.py](./stencil/gen_image.py): Generates an image represented as a sequence of `height * width * channels` numbers ranging from 0 to 256. The image consists of a noisy rectangle in the middle of a black field.
+  - [gen_image.py](./stencil/gen_image.py): Generates an image represented as a sequence of `height * width * channels` numbers ranging from 0 to 256. The image consists of a noisy rectangle in the middle of a black field.
 
   - [draw_image.py](./stencil/draw_image.py): Transforms a sequence of `height * width * channels` numbers into an image. (If it can be interpreted as one.)
 
